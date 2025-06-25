@@ -104,7 +104,7 @@ with Tesseract.from_image(image_name) as sheath_tx:
             Lz=Lz,
             R=R, L=L, C=C,
             sheath_tesseract_url=sheath_tx._client.url,
-            dt=5e-8,
+            dt=1e-8,
             t_end=2e-5,
         ))
 
